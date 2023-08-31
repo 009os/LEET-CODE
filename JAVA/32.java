@@ -40,3 +40,16 @@ class Solution {
         return n;
     }
 }
+
+/*
+
+ANOTHER LOGIC
+
+let 
+
+left=0,right=0,max=0;
+if("(" found left++) else(right++)
+if(left==right)(max=Math.max(max,left*2))
+else if(right>left)(reset left =0  and right =0)
+
+*/
